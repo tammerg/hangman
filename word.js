@@ -1,5 +1,5 @@
 module.exports = Word;
-var Letter = require("./letter.js");
+var Letter = require("./letterfinder.js");
 
 function Word(wrd){
   this.word = wrd;
